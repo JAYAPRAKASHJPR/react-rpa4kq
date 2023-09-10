@@ -7,7 +7,6 @@ const reducer = (state, action) => {
       return { ...obj, count: state.count + 1 };
     case 'DECREMENT':
       return { ...obj, count: state.count - 1 };
-
     case 'CHANGE':
       return { ...obj, fname: state.fname + 'cv' };
     case 'TOGGLE':
